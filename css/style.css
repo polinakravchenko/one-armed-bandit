@@ -1,0 +1,79 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(227, 148, 148);    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-image: url(gold-coins.png);
+}
+h1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 3vw;
+    color:rgb(252, 252, 252);
+    width: auto;
+    margin: 0 auto 1vmin;
+}
+.slot{
+    display: block;
+    position: relative;
+    justify-content:center;
+    margin: 0 auto;
+    padding: 5vmin;
+    width: 55vmin;
+    height: 57vmin;
+    text-align: center;
+    background: rgb(233,159,117);
+    background: radial-gradient(circle, rgba(233,159,117,1) 20%, rgba(240,229,67,1) 50%, rgb(232, 58, 72) 92%);
+    border-radius: 15px;
+    border: 5px solid white;
+}
+.images{
+    width: 14vmin;
+    box-sizing: border-box;
+    margin: auto 1vmin 1vmin 1vmin;
+    height:14vmin;
+    background-color: rgb(244, 197, 156);
+    border-radius: 10px;
+}
+.attempts{
+    display: block;
+    position: relative;
+    justify-content: center;
+    margin: auto;
+    font-size: 3vmin;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    color: rgb(255, 255, 255);
+}
+.button{
+    display: block;
+    position: relative;
+    justify-content: center;
+    margin: auto;
+    width: 15vmin;
+    height: auto;
+    text-align: center;
+    font-size: 4vmin;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: azure;
+    background-color: rgb(238, 50, 8);
+    border-radius: 10px;
+    border: 4px solid snow;
+}
+.button:hover{
+    width: 16vmin;
+    height: 4.5vmin;
+    font-size: 30px;
+    color: aliceblue;
+    background-color: brown;
+    border-radius: 8px;
+    border-radius: 4px solid rgb(240, 202, 202);
+}
+.result{
+    font-size: 3.5vmin;
+    font-weight: bold;
+}
